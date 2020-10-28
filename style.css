@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("fonts/OpenSans-Bold.ttf");
+
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+@font-face{
+font-family :"Bahianita";
+src: url("fonts/Bahianita/Bahianita-Regular.eot") format('embedded-opentype');
+src: url("Bahianita-Regular.woff") format('woff'),
+	url("Bahianita-Regular.woff2") format('woff2'),
+	url("Bahianita-Regular.svg") format('svg'),
+	url("	Bahianita-Regular.ttf") format('true type')
+
+}
+
+body{
+font-size: 18px;
+}
+.georgia{
+
+    font-size: 110%;
+    font-family: "Georgia";
+}
+.Palatino{
+
+    font-style: oblique;
+    font-size:0.5em;
+}
+.TNR{
+    font-family: "Times New Roman";
+    font-weight: bolder;
+    font-size:4vh;
+}
+.arial{
+    font-family: Arial;
+    text-shadow: 2px 2px coral;
+    font-size:2.2vmax;
+}
+.tahoma{
+    font-family: sans-serif;
+    text-decoration:  underline overline dotted coral;
+    font-size:9pt;
+}
+
+.opensans h1{
+    font-family: "OpenSansBold";
+   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+    font-size:150%;
+}
+.opensans h1:hover{
+    overflow: visible;
+    
+}
+.Dancingscript{
+    font-family: Dancing Script;
+    text-align: center;
+    font-size:30px;
+
+}
+.Montserrat {
+    font-family: Montserrat;
+    line-height: 30px;
+    font-size:3vmin;
+}
+
+.webkit{
+font-family :"Bahianita";
+-webkit-text-fill-color:white;
+-webkit-text-stroke-width :1px;
+-webkit-text-stroke-color:black;
+font-size:4rem;
+}
+
+div{
+	border-style: double;
+	margin :20px;
+	padding:8px;
+}

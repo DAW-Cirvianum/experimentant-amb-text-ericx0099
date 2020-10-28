@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Bahianita';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Bahianita-Regular.eot'); /* IE9 */
+  src: url('../fonts/Bahianita-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Bahianita-Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('../fonts/Bahianita-Regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Bahianita-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Bahianita-Regular.svg#Bahianita') format('svg'); /* Legacy iOS */
+}
